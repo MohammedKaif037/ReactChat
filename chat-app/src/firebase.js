@@ -5,19 +5,7 @@ import { getDatabase } from 'firebase/database';
 import axios from 'axios';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAt80XvD65YDpM9UuIfi5GCJJh9eoUGh18",
-
-  authDomain: "reactchatapp-df8d3.firebaseapp.com",
-
-  projectId: "reactchatapp-df8d3",
-
-  storageBucket: "reactchatapp-df8d3.appspot.com",
-
-  messagingSenderId: "408420598417",
-
-  appId: "1:408420598417:web:7cce715e95807683d17530",
-
-  measurementId: "G-N9XX8CH317"
+  //your firebase config mine hidden due to security reasons
 };
 
 const app = initializeApp(firebaseConfig);
