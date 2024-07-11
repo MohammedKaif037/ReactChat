@@ -36,13 +36,11 @@ Follow these steps to set up the project:
 
    ```
    cd ../chatproject
-   # Step 1: Create and activate a virtual environment
+    
 python3 -m venv venv
 source venv/bin/activate
 
-# Step 2: Create requirements.txt and add dependencies (done manually)
-
-# Step 3: Install dependencies
+ 
 pip install -r requirements.txt
     ```
    
