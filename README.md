@@ -17,10 +17,10 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to set up the project:
 
-1. Navigate to the `frontend` directory and install the necessary dependencies:
+1. Navigate to the `chat-app` directory and install the necessary dependencies:
 
    ```
-   cd frontend
+   cd chat-app
    npm install
    ```
 
