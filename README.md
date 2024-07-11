@@ -32,11 +32,20 @@ Follow these steps to set up the project:
 
    This command runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser. The page will reload if you make edits.
 
-3. Navigate to the `backend` directory and install the necessary dependencies:
+3. Navigate to the `chatproject` directory and install the necessary dependencies:
 
    ```
-   cd ../backend
+   cd ../chatproject
+   # Step 1: Create and activate a virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Step 2: Create requirements.txt and add dependencies (done manually)
+
+# Step 3: Install dependencies
+pip install -r requirements.txt
     ```
+   
 
 4. Apply migrations and start the backend server:
 
